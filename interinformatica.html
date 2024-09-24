@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universidad Inter Americana - Informática</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="logo/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Universidad Inter Americana</h1>
+            <nav>
+                <ul>
+                    <li><a href="https://bayamon.inter.edu/informatica/" >Inicio</a></li> 
+                    <li><a href="https://bayamon.inter.edu/informatica/facultad/">Sobre Nosotros</a></li> 
+                    <li><a href="https://aka.ms/devtoolsforteaching">Contacto</a></li> 
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Bienvenido a la Facultad de Informática</h2>
+            <p>Explora nuestros servicios diseñados para potenciar tu experiencia académica.</p>
+   
+            <img src="ruta/a/tu/imagen.png" alt="" style="max-width: 100%; height: auto;">
+            <button class="btn" id="conocenos-btn" aria-haspopup="true" aria-expanded="false">Conócenos</button>
+    
+            <div class="dropdown-content" id="conocenos-dropdown">
+                <a href="https://bayamon.inter.edu/mision-y-vision/">Visión y Misión</a>
+                <a href="https://bayamon.inter.edu/historia-del-recinto/">Historia del Recinto</a>
+                <a href="https://bayamon.inter.edu/valores/">Valores Cristianos-Ecuménicos</a>
+                <a href="https://bayamon.inter.edu/acreditaciones/">Acreditaciones</a>
+                <a href="https://bayamon.inter.edu/mapa/">Nuestro Campus</a>
+                <a href="/oferta-academica/directorio-2/">Directorio</a>
+                <a href="https://bayamon.inter.edu/exalumnos/">Exalumnos</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h3>Inter Web</h3>
+                    <p>Plataforma para gestionar y acceder a recursos web académicos.</p>
+                    <a href="https://ssb.ec.inter.edu/ssomanager/saml/login?relayState=/c/auth/SSB">Inter Web</a>
+                </div>
+                <div class="service-item">
+                    <h3>Blackboard</h3>
+                    <p>Herramienta para la gestión de cursos y materiales educativos.</p>
+                    <a href="https://interbb.blackboard.com/">Blackboard</a>
+                </div>
+                <div class="service-item">
+                    <h3>Correo</h3>
+                    <p>Servicio de correo institucional para la comunidad universitaria.</p>
+                    <a href="http://portal.office.com/">Correo</a>
+                </div>
+                <div class="service-item">
+                    <h3>CAI</h3>
+                    <p>Centro de Atención Informática para soporte técnico y consultas.</p>
+                    <a href="https://cai.bayamon.inter.edu/">CAI</a>
+                </div>
+                <div class="service-item">
+                    <h3>Programa de Clases</h3>
+                    <p>Consulta y gestión de horarios y programas académicos.</p>
+                    <a href="https://bayamon.inter.edu/programa-de-clases-class-roster/">Programa de Clases</a>
+                </div>
+                <div class="service-item">
+                    <h3>Calendario Académico</h3>
+                    <p>Fechas importantes y eventos del año académico.</p>
+                    <a href="https://bayamon.inter.edu/calendario-academico/">Calendario Académico</a>
+                </div>
+                <div class="service-item">
+                    <h3>Directivo</h3>
+                    <p>Información y contacto de los directivos de la facultad.</p>
+                    <a href="https://bayamon.inter.edu/directorio-2/">Directorio</a>
+                </div>
+                <div class="service-item">
+                    <h3>Accesabilidad/Accessibility</h3>
+                    <p>Recursos y herramientas para garantizar la accesibilidad en nuestras plataformas.</p>
+                    <a href="https://www.inter.edu/accesibilidad/">Accesibilidad/Accessibility</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2>Misión</h2>
+            <p>Formar profesionales competentes en el dinámico campo de la informática destacados por sus ejecutorias, su ética profesional y su solidaridad con su entorno social.</p>
+            <h3>Nuestra Visión</h3>
+            <p>Convertirnos en líderes en el desarrollo de profesionales en el campo de la informática. Ser reconocidos por las ejecutorias de los egresados, su ética profesional y por sus contribuciones a la sociedad.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Universidad Inter Americana. Todos los derechos reservados.</p>
+            <div class="social">
+                <a href="mailto:interbcinfo@bayamon.inter.edu">interbcinfo@bayamon.inter.edu</a>
+                <p>(787) 279-1912</p>
+                <p>
+                    La Universidad Interamericana de Puerto Rico posee Licencia de Renovación de la Junta de Instituciones Postsecundarias de Puerto Rico y todos los programas académicos, incluyendo los programas de educación en línea, están autorizados por dicha Agencia. La Universidad Interamericana está acreditada por la Middle States Commission on Higher Education (MSCHE),1007 North Orange Street 4th Floor, MB#166 Wilmington, DE 19801. La MSCHE es una agencia de acreditación institucional reconocida por el Secretario de Educación de los Estados Unidos de Norteamérica y por el Council on Higher Education Accreditation (CHEA).
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const conocenosBtn = document.getElementById('conocenos-btn');
+            const dropdown = document.getElementById('conocenos-dropdown');
+
+            conocenosBtn.addEventListener('click', function() {
+                dropdown.classList.toggle('show');
+            });
+
+            window.onclick = function(event) {
+                if (!event.target.matches('#conocenos-btn')) {
+                    if (dropdown.classList.contains('show')) {
+                        dropdown.classList.remove('show');
+                    }
+                }
+            };
+        });
+    </script>
+</body>
+</html>
